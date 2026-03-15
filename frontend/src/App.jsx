@@ -28,7 +28,7 @@ export default function App() {
   return (
     <div>
 
-      <h1>AI Journal</h1>
+      <h1 className="text-3xl text-center">AI Journal</h1>
 
       <JournalForm refresh={loadData} />
 
