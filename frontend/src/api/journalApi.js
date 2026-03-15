@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/journal"
+  baseURL: "https://ai-journal-cy2n.onrender.com"
 });
 
 export const createJournal = (data) => API.post("/", data);
