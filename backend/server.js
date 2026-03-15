@@ -14,9 +14,6 @@ app.use(express.json());
 
 connectDB();
 
-// app.get("/", (req,res) => {
-//     res.send("AI journal API running");
-// })
 app.use("/api/journal", journalRoutes)
 
 const PORT = process.env.PORT || 5000;
